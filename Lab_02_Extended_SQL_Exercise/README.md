@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34973308/README.md)
 # Lab 02 - Extended SQL Exercise
 
 This lab practices analytical SQL on a small sales schema containing customers, item categories, agents, time, and sales facts.
