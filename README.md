@@ -4,14 +4,15 @@ A curated portfolio of Data Management laboratory exercises covering **Extended 
 
 The original exercise sheets are preserved in each lab folder. The SQL solutions were reconstructed from the assignment specifications and organized as readable, documented portfolio code.
 
-
-```
+---
 
 Each lab folder contains exactly:
 
 1. the original assignment PDF;
 2. one complete `.sql` solution file;
 3. one lab-specific `README.md` explaining the model, assumptions, and analytical techniques.
+
+---
 
 ## Labs
 
@@ -30,6 +31,8 @@ Each lab folder contains exactly:
 | 11 | Vehicle rental | Route analysis, client profiles, model-option bridge |
 | 12 | Versioning services | Commit analytics, repository-language bridge, developer teams |
 
+---
+
 ## SQL style
 
 The reconstructed data-warehouse solutions use **PostgreSQL 14+ compatible SQL**. The analytical logic relies on standard concepts available in most modern SQL platforms:
@@ -45,6 +48,8 @@ The reconstructed data-warehouse solutions use **PostgreSQL 14+ compatible SQL**
 
 The repository focuses on **warehouse design and analytical SQL**. It does not include ETL pipelines or source datasets, because those were not part of the provided lab material.
 
+---
+
 ## Modeling principles used
 
 Across the exercises, the solutions follow a few consistent rules:
@@ -57,9 +62,13 @@ Across the exercises, the solutions follow a few consistent rules:
 - Use weighted ratios such as `SUM(revenue) / SUM(volume)` where ratio-of-sums is analytically more appropriate than averaging row-level ratios.
 - Add pre-aggregation only where the frequent-query workload justifies it.
 
+---
+
 ## Notes on source material
 
 A few source PDFs contain minor naming inconsistencies or leftover text from other exercises. These are not silently rewritten. The corresponding lab README documents each assumption explicitly so the implementation remains traceable to the original assignment.
+
+---
 
 ## Course
 
