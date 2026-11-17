@@ -4,24 +4,7 @@ A curated portfolio of Data Management laboratory exercises covering **Extended 
 
 The original exercise sheets are preserved in each lab folder. The SQL solutions were reconstructed from the assignment specifications and organized as readable, documented portfolio code.
 
-## Repository structure
 
-```text
-Data_Management_Labs_GitHub/
-├── README.md
-└── SQL_Data_Warehousing/
-    ├── Lab_01_Extended_SQL/
-    ├── Lab_02_Extended_SQL_Exercise/
-    ├── Lab_03_Household_Storehouses_DW/
-    ├── Lab_04_House_Search_DW/
-    ├── Lab_05_Hotel_Chain_DW/
-    ├── Lab_06_Parcels_Service_DW/
-    ├── Lab_07_PC_Assembler_DW/
-    ├── Lab_08_Craft_Beer_DW/
-    ├── Lab_09_Food_Delivery_DW/
-    ├── Lab_10_Tickets_DW/
-    ├── Lab_11_Vehicle_Rental_DW/
-    └── Lab_12_Versioning_Services_DW/
 ```
 
 Each lab folder contains exactly:
